@@ -11,10 +11,6 @@ public class DroneMovement : MonoBehaviour
 
     }
 
-    private void OnMove(InputValue value) {
-        Debug.Log(value.Get<float>());
-    }
-
 // Old movement code:
 /*
     public float upwardForce = 1000f;
