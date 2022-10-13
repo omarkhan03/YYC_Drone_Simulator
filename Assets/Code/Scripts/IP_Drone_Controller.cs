@@ -42,7 +42,6 @@ public class IP_Drone_Controller : IP_Base_Rigidbody
     {     
         foreach(IEngine engine in engines) {
             engine.UpdateEngine(rb, input);
-            engine.ExtraForce(rb, input);
         }
     }
 

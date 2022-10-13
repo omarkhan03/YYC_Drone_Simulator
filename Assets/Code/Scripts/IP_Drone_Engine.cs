@@ -35,37 +35,13 @@ public class IP_Drone_Engine : MonoBehaviour, IEngine
         rb.AddForce(engineForce, ForceMode.Force);
         HandlePropellers();
 
-        float power = input.Pedals;
         float x = input.Cyclic.x;
         float y = input.Cyclic.y;
 
-        Vector3 extra = new Vector3 (x, 0f, y) * extraPower;
-        rb.AddForce(extra);
-    }
-
-    public void ExtraForce(Rigidbody rb, IP_Drone_Inputs input) {
-        /*
-        float power = input.Pedals * extraPower;
-        float x = input.Cyclic.x;
-        float y = input.Cyclic.y;
-
-        Vector3 extra = new Vector3 (x, 0f, y) * power;
-        rb.AddForce(extra);
-        */
-        /*
-         if ( Input.GetKey("i")) {
-            drone.AddForce(sidewaysForce*Time.deltaTime*Camera.main.transform.forward);
-        } 
-        if ( Input.GetKey("k")) {
-            drone.AddForce(-sidewaysForce*Time.deltaTime*Camera.main.transform.forward);
+        if(x != 0 | y != 0) {
+            Vector3 move = new Vector3 (x, 0.5f, y) * extraPower;
+            rb.AddRelativeForce(move);
         }
-        if ( Input.GetKey("j")) {
-            drone.AddForce(-sidewaysForce*Time.deltaTime*Camera.main.transform.right);
-        } 
-        if ( Input.GetKey("l")) {
-            drone.AddForce(sidewaysForce*Time.deltaTime*Camera.main.transform.right);
-        } 
-        */
     }
 
     void HandlePropellers()
