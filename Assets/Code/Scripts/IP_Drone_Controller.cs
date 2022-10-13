@@ -10,8 +10,8 @@ public class IP_Drone_Controller : IP_Base_Rigidbody
     [Header("Control Properties")]
     [SerializeField] private float minMaxPitch = 30f;
     [SerializeField] private float minmaxRoll = 30f;
-    [SerializeField] private float yawPower = 4f;
-    [SerializeField] private float lerpSpeed = 2f;
+    [SerializeField] private float yawPower = 1f;
+    [SerializeField] private float lerpSpeed = 0.5f;
 
     private IP_Drone_Inputs input;
     private List<IEngine> engines = new List<IEngine>();
@@ -42,6 +42,7 @@ public class IP_Drone_Controller : IP_Base_Rigidbody
     {     
         foreach(IEngine engine in engines) {
             engine.UpdateEngine(rb, input);
+            engine.ExtraForce(rb, input);
         }
     }
 
