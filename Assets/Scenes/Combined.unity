@@ -250,8 +250,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f371ddc1b618e47d690b05d4ee04a8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPower: 10
-  extraPower: 50
+  maxPower: 30
+  extraPower: 10
   propeller: {fileID: 1157574446}
   propRotSpeed: 50
 --- !u!1 &37431186
@@ -312,8 +312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f371ddc1b618e47d690b05d4ee04a8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPower: 10
-  extraPower: 50
+  maxPower: 30
+  extraPower: 10
   propeller: {fileID: 1053627585}
   propRotSpeed: 50
 --- !u!4 &53310923 stripped
@@ -379,8 +379,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f371ddc1b618e47d690b05d4ee04a8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPower: 10
-  extraPower: 50
+  maxPower: 30
+  extraPower: 10
   propeller: {fileID: 1270625154}
   propRotSpeed: 50
 --- !u!1 &349624421
@@ -523,8 +523,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f371ddc1b618e47d690b05d4ee04a8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPower: 10
-  extraPower: 50
+  maxPower: 30
+  extraPower: 10
   propeller: {fileID: 1672400688}
   propRotSpeed: 50
 --- !u!1 &550777582
@@ -914,7 +914,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875404294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -1000, y: 1000, z: -1000}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -980,7 +980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915920497}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 500, z: 0}
+  m_LocalPosition: {x: 0, y: 2000, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
