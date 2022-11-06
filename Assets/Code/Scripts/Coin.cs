@@ -14,7 +14,10 @@ public class Coin : MonoBehaviour
     {
         if (!collected) {
             checklist.checkPlace(place);
-            StartCoroutine(ShrinkCoin(coin));
+            // StartCoroutine(ShrinkCoin(coin));
+            for (float i = coin.transform.localScale.x ; i >= 0; i--) {
+                coin.transform.localScale += new Vector3(-1f, -1f, -1f);
+            }
             collected = true;
         }
     }
