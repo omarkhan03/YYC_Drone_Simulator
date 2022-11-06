@@ -14,14 +14,15 @@ public class Coin : MonoBehaviour
     {
         if (!collected) {
             checklist.checkPlace(place);
-            coin.transform.localScale += new Vector3(-600f, -600f, -600f); 
+            StartCoroutine(ShrinkCoin(coin));
             collected = true;
         }
     }
 
-    void ShrinkCoin(Transform coin) {
-        for (int i = 600; i >= 0; i--) {
-            coin.transform.localScale += new Vector3(1f, 1f, 1f) * -1;
+    IEnumerator ShrinkCoin(Transform coin) {
+        for (float i = coin.transform.localScale.x ; i >= 0; i--) {
+            coin.transform.localScale += new Vector3(-1f, -1f, -1f);
+            yield return new WaitForSeconds(1/5);
         }
     }
      
