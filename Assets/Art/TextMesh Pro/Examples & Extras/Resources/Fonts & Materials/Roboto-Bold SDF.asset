@@ -146,18 +146,70 @@ MonoBehaviour:
     m_StrikethroughOffset: 19.2
     m_StrikethroughThickness: 4.3945312
     m_TabWidth: 22
-  m_GlyphTable: []
-  m_CharacterTable: []
+  m_GlyphTable:
+  - m_Index: 399
+    m_Metrics:
+      m_Width: 55.375
+      m_Height: 13.53125
+      m_HorizontalBearingX: 5.53125
+      m_HorizontalBearingY: 13.046875
+      m_HorizontalAdvance: 66.578125
+    m_GlyphRect:
+      m_X: 10
+      m_Y: 10
+      m_Width: 56
+      m_Height: 15
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 67
+    m_Metrics:
+      m_Width: 40.03125
+      m_Height: 9.9375
+      m_HorizontalBearingX: 0.046875
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 40.171875
+    m_GlyphRect:
+      m_X: 85
+      m_Y: 10
+      m_Width: 41
+      m_Height: 10
+    m_Scale: 1
+    m_AtlasIndex: 0
+  m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 8230
+    m_GlyphIndex: 399
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 95
+    m_GlyphIndex: 67
+    m_Scale: 1
   m_AtlasTextures:
   - {fileID: 28204114720316640}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
   m_ClearDynamicDataOnBuild: 1
-  m_UsedGlyphRects: []
-  m_FreeGlyphRects:
+  m_UsedGlyphRects:
   - m_X: 0
     m_Y: 0
+    m_Width: 75
+    m_Height: 34
+  - m_X: 75
+    m_Y: 0
+    m_Width: 60
+    m_Height: 29
+  m_FreeGlyphRects:
+  - m_X: 0
+    m_Y: 34
     m_Width: 1023
+    m_Height: 989
+  - m_X: 75
+    m_Y: 29
+    m_Width: 948
+    m_Height: 994
+  - m_X: 135
+    m_Y: 0
+    m_Width: 888
     m_Height: 1023
   m_fontInfo:
     Name: Roboto
