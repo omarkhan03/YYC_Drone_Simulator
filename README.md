@@ -4,7 +4,9 @@ A drone simulator set in an accurate model of downtown Calgary built using real-
 
 This is not meant to be an accurate simulation, instead just a prototype to practice my skills and explore what can be done using satellite data.
 
-**Click [here](https://omarkhan03.itch.io/calgary-drone-simulator) to download the simulation!**
+**[Click here to download the simulation!](https://omarkhan03.itch.io/calgary-drone-simulator)**
+
+**[And here's a demo video.](https://www.youtube.com/watch?v=LV53am58Ej4)**
 
 ![Screen-Shot-2022-11-06-at-3-07-29-PM](https://i.ibb.co/d0JF0gM/Screen-Shot-2022-11-06-at-3-07-29-PM.png)
 ![Screen-Shot-2022-11-06-at-3-12-00-PM](https://i.ibb.co/M93DTyy/Screen-Shot-2022-11-06-at-3-12-00-PM.png)
