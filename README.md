@@ -17,9 +17,10 @@ This is not meant to be an accurate simulation, instead just a prototype to prac
 - Inspiration: [Geographical Adventures](https://github.com/SebLague/Geographical-Adventures) by Sebastian Lague.
 
 ## Future Plans
-- Creating a larger and higher resolution 3D model of Calgary by stitching together multiple high-res models using [Lily Capture Merger](https://eliemichel.gumroad.com/l/KSvXuu)
-- Minimap
-- Settings menu so the user can modify certain variables (i.e throttle, horizontal speed)
-- Adding visible mountains in the distance, and clouds
-- More coins at landmark locations
-- (possibly) creating a VR version of this project, or adding VR support
+- [ ] Creating a larger and higher resolution 3D model of Calgary by stitching together multiple high-res models using [Lily Capture Merger](https://eliemichel.gumroad.com/l/KSvXuu) - IN PROGRESS
+- [ ] Minimap
+- [ ] Settings menu so the user can modify certain variables (i.e throttle, horizontal speed)
+- [ ] Adding visible mountains in the distance, and clouds
+- [ ] More coins at landmark locations
+- [ ] FPV
+- [ ] (possibly) creating a VR version of this project, or adding VR support
