@@ -22,5 +22,5 @@ This is not meant to be an accurate simulation, instead just a prototype to prac
 - [ ] Settings menu so the user can modify certain variables (i.e throttle, horizontal speed)
 - [ ] Adding visible mountains in the distance, and clouds
 - [ ] More coins at landmark locations
-- [ ] FPV
+- [X] ~~FPV~~
 - [ ] (possibly) creating a VR version of this project, or adding VR support
