@@ -18,3 +18,17 @@ public class Pivot : MonoBehaviour {
         transform.rotation = pivotRotation;
     }
 }
+
+/*
+        if (!fpv) {
+            transform.position = drone.position + offset;
+        } else {
+            transform.position = drone.position;
+        }
+
+        if (Input.GetKeyDown("f"))
+        {
+            fpv = !fpv;
+        }
+
+*/
